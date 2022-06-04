@@ -1,8 +1,7 @@
 .cuadro {
   position: absolute;
   padding: 1vw;
-  background-color: rgba(7, 7, 7, 0.644);
-  box-shadow: 0 0 1.9vw rgba(0, 0, 0, 0.5);
+  background-color: rgb(54, 54, 54);
   width: 10vw;
   height: 4vw;
   transform: translate(-50%, -50%);
@@ -12,78 +11,87 @@
   transition: .5s;
   text-align: center;
   display: block;
-  -webkit-border-radius: 0.20vw;
-  -moz-border-radius: 0.20vw;
-  -ms-border-radius: 0.20vw;
-  -o-border-radius: 0.20vw
+  
 }
 
 .velocidadact {
-  font-size: 5vh;
-  color: white;
-  position: fixed;
-  top: 4.6vh;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  font-family: 'Orbitron', sans-serif
+font-size: 5vh;  
+color:white;
+position:fixed;
+top:5.5vh;
+left:50%;
+transform:translate(-50%,-50%);
+font-family: 'Orbitron', sans-serif;
 }
 
-.gasolina {
-  position: fixed;
-  top: 8.5vh;
-  left: 2.6vw;
-  font-size: 1vw;
-  color: rgb(255, 255, 255)
+.gasolina{
+position:fixed;
+top:8.5vh;
+left:2.6vw;
+font-size: 1vw;
+color: rgba(255, 255, 255, 0.6);
 }
 
-.gasolinact {
-  position: absolute;
-  height: 0.2vw;
-  width: 4vw;
-  background-color: rgb(255, 255, 255);
-  border-radius: 100vw;
-  -webkit-border-radius: 100vw;
-  -moz-border-radius: 100vw;
-  -ms-border-radius: 100vw;
-  -o-border-radius: 100vw;
-  left: 2vw;
-  bottom: 0.35vw;
+.gasolinact{
+font-size: 1.5vh;  
+color:white;
+position:fixed;
+top:9.5vh;
+left:40%;
+transform:translate(-50%,-50%);
+font-family: 'Oswald', sans-serif;
 }
 
 .daño {
-  position: fixed;
-  top: 8.5vh;
-  right: 40%;
-  font-size: 1vw;
-  color: rgb(255, 255, 255)
+position:fixed;
+top:8.5vh;
+right:40%;
+font-size: 1vw;
+color: rgba(255, 255, 255, 0.6); 
 }
 
-.dañoact {
-  font-size: 1.5vh;
-  color: white;
-  position: fixed;
-  top: 9.4vh;
-  right: 12%;
+.dañoact{
+font-size: 1.5vh;  
+color:white;
+position:fixed;
+top:9.4vh;
+right:12%;
+transform:translate(-50%,-50%);
+font-family: 'Oswald', sans-serif;
+}
+
+.calles {
+  position: absolute;
+  padding: 1vw;
+  width: 15vw;
+  height: 2vw;
   transform: translate(-50%, -50%);
-  font-family: 'Orbitron', sans-serif
+  left: 50%;
+  top: 3vw;
+  border-radius: .7vw;
+  box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw gray;
+  transition: .5s;
+  text-align: center;
+  display: block;
 }
 
 .marchas {
-  position: absolute;
-  width: 2vw;
-  height: 2vw;
-  border: .2vw solid rgb(255, 255, 255);
-  border-radius: .5vw;
-  top: 32%;
-  right: 1vw
+position: absolute;
+width: 1.5vw;
+height: 1.5vw;
+border: .2vw solid gray;
+border-radius: .5vw;
+top: 30%;
+right: 1vw;
+
 }
 
 .marchact {
-  font-size: 3vh;
-  color: white;
-  position: fixed;
-  top: 50%;
-  right: 1.35vw;
-  transform: translate(-50%, -50%);
-  font-family: 'Oswald', sans-serif
+font-size: 3vh;  
+color:white;
+position:fixed;
+top: 47%;
+right: 1.2vw;
+transform:translate(-50%,-50%);
+font-family: 'Oswald', sans-serif;
 }
