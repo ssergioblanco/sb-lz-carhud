@@ -1,9 +1,9 @@
 $(function(){
-    console.log("SB-LZ CARHUD INITIALIZED")
-    window.addEventListener('message', function(event){
-        let e = event.data;
+    console.log("SB-LZ CARHUD INITIALIZED") // Para printear en el f8
+    window.addEventListener('message', function(event){ // AddEvent listener.
+        let e = event.data; // Coger eventos
 
-        if (e.action === "InVeh"){ // si la accion es InVeh entonces...
+        if (e.action === "InVeh"){ // si e.action === InVeh entonces...
             $('.cuadro').show(); // mostrar carhud
             $('.velocidadact').text(Math.round(e.kmh) + ""); // cambiar el texto de velocidadact por el mensaje evento kmh
             $('.gasolinact').text(Math.round(e.fuel) + "%");  // cambiar el texto de gasolinact por el mensaje evento fuel, y poner % al final
